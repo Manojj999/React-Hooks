@@ -1,14 +1,15 @@
 import React, { useState } from "react";
 
+//UseState using Object --> e,g => name spread
 function HooksCounterThree() {
-  const [name, setName] = useState({ firstName: "", lastName: "" });
+  const [name, setName] = useState({ firstName: "", lastName: "" }); //Here Used Object
   return (
     <div>
       <form action="">
         <input
           type="text"
           value={name.firstName}
-          onChange={(e) => setName({ ...name, firstName: e.target.value })}
+          onChange={(e) => setName({ ...name, firstName: e.target.value })}//here used spread operator becouse it doen't update or Merge
         />
         <input
           type="text"
