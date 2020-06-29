@@ -6,7 +6,8 @@ import './App.css';
 // import HooksCounterThree from './components/HooksCounterThree';
 // import HookCounterArray from './components/HookCounterArray';
 // import HookCounterUseEffect1 from './components/HookCounterUseEffect1';
-import HookMouseRunUseEffectOnlyOnce from './components/HookMouseRunUseEffectOnlyOnce';
+// import HookMouseRunUseEffectOnlyOnce from './components/HookMouseRunUseEffectOnlyOnce';
+import MouseContainer from './components/MouseContainer';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       <HooksCounterThree /> */}
       {/* <HookCounterArray/>
       <HookCounterUseEffect1/> */}
-      <HookMouseRunUseEffectOnlyOnce />
+      {/* <HookMouseRunUseEffectOnlyOnce /> */}
+      <MouseContainer />
     </div>
   );
 }
