@@ -1,11 +1,12 @@
 import React from 'react';
-import Counter from './components/Counter';
-import HookCounter from './components/HookCounter';
 import './App.css';
-import HookCounterTwo from './components/HookCounterTwo';
-import HooksCounterThree from './components/HooksCounterThree';
-import HookCounterArray from './components/HookCounterArray';
-import HookCounterUseEffect1 from './components/HookCounterUseEffect1';
+// import Counter from './components/Counter';
+// import HookCounter from './components/HookCounter';
+// import HookCounterTwo from './components/HookCounterTwo';
+// import HooksCounterThree from './components/HooksCounterThree';
+// import HookCounterArray from './components/HookCounterArray';
+// import HookCounterUseEffect1 from './components/HookCounterUseEffect1';
+import HookMouseRunUseEffectOnlyOnce from './components/HookMouseRunUseEffectOnlyOnce';
 
 function App() {
   return (
@@ -14,8 +15,9 @@ function App() {
       <HookCounter />
       <HookCounterTwo />
       <HooksCounterThree /> */}
-      <HookCounterArray/>
-      <HookCounterUseEffect1/>
+      {/* <HookCounterArray/>
+      <HookCounterUseEffect1/> */}
+      <HookMouseRunUseEffectOnlyOnce />
     </div>
   );
 }
