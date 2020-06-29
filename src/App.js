@@ -3,6 +3,7 @@ import Counter from './components/Counter';
 import HookCounter from './components/HookCounter';
 import './App.css';
 import HookCounterTwo from './components/HookCounterTwo';
+import HooksCounterThree from './components/HooksCounterThree';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Counter />
       <HookCounter />
       <HookCounterTwo />
+      <HooksCounterThree />
     </div>
   );
 }
