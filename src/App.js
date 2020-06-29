@@ -5,6 +5,7 @@ import './App.css';
 import HookCounterTwo from './components/HookCounterTwo';
 import HooksCounterThree from './components/HooksCounterThree';
 import HookCounterArray from './components/HookCounterArray';
+import HookCounterUseEffect1 from './components/HookCounterUseEffect1';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <HookCounterTwo />
       <HooksCounterThree /> */}
       <HookCounterArray/>
+      <HookCounterUseEffect1/>
     </div>
   );
 }
