@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
 // import IntervalHookCounter from './components/IntervalHookCounter';
-import DataFetching from './components/DataFetching';
+// import DataFetching from './components/DataFetching';
+import ComponentC from './components/Context/ComponentC';
 // import Counter from './components/Counter';
 // import HookCounter from './components/HookCounter';
 // import HookCounterTwo from './components/HookCounterTwo';
@@ -10,6 +11,8 @@ import DataFetching from './components/DataFetching';
 // import HookCounterUseEffect1 from './components/HookCounterUseEffect1';
 // import HookMouseRunUseEffectOnlyOnce from './components/HookMouseRunUseEffectOnlyOnce';
 // import MouseContainer from './components/MouseContainer';
+
+export const UserContext = React.createContext()
 
 function App() {
   return (
@@ -23,7 +26,12 @@ function App() {
       {/* <HookMouseRunUseEffectOnlyOnce /> */}
       {/* <MouseContainer /> */}
       {/* <IntervalHookCounter /> */}
-      <DataFetching/>
+      {/* <DataFetching/> */}
+
+      <UserContext.Provider value={'MAnoj'}>
+        <ComponentC />
+      </UserContext.Provider>
+      
     </div>
   );
 }
