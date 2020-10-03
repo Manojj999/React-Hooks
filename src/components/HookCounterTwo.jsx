@@ -9,6 +9,16 @@ function HookCounterTwo() {
             setCount(prevCount => prevCount+1)
         }
     }
+    
+    const IncrementThree = () => {
+
+        for(let i=0; i<3;i++){
+
+            setCount(prevCount => prevCount+1)
+
+        }
+
+    }
 
     return (
         <div>
@@ -16,6 +26,7 @@ function HookCounterTwo() {
             <button onClick={() => setCount(initialCount)}>Reset</button>
             <button onClick={() => setCount(prevCount => prevCount+1)}>Increment</button>
             <button onClick={() => setCount(prevCount => prevCount-1)}>Decrement</button>
+            <button onClick={IncrementThree}>IncrementBy3</button>
             <button onClick={IncrementFive}>IncrementBy5</button>
             
             
